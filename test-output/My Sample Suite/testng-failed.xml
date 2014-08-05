@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [My Sample Suite]">
+  <test name="Create MO Routes(failed)">
+    <classes>
+      <class name="testcases.Create_Moroutes">
+        <methods>
+          <include name="moroute" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testcases.Create_Moroutes -->
+    </classes>
+  </test> <!-- Create MO Routes(failed) -->
+  <test name="Create MT Routes(failed)">
+    <classes>
+      <class name="testcases.Create_Mtroutes">
+        <methods>
+          <include name="mtroute" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testcases.Create_Mtroutes -->
+    </classes>
+  </test> <!-- Create MT Routes(failed) -->
+  <test name="Create shortcodes(failed)">
+    <classes>
+      <class name="testcases.Create_Shortcodes">
+        <methods>
+          <include name="createshortcode" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testcases.Create_Shortcodes -->
+    </classes>
+  </test> <!-- Create shortcodes(failed) -->
+</suite> <!-- Failed suite [My Sample Suite] -->

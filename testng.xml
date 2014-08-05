@@ -1,0 +1,41 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Infocenter Suite">
+
+<test name="Create shortcodes">
+    <classes>
+        <class name="testcases.Create_Shortcodes" ></class>  
+    </classes>
+</test>
+
+<test name="Create MT Routes">
+    <classes>
+        <class name="testcases.Create_Mtroutes" ></class>  
+    </classes>
+</test>
+
+<test name="Create MO Routes">
+    <classes>
+        <class name="testcases.Create_Moroutes" ></class>  
+    </classes>
+</test>
+
+<test name="Create Routerlog">
+    <classes>
+        <class name="testcases.Create_Routerlog" ></class>  
+    </classes>
+</test>
+
+<test name="Create verizonprograms">
+    <classes>
+        <class name="testcases.Create_verizon" ></class>  
+    </classes>
+</test>
+
+<test name="Edit Shortcode">
+    <classes>
+        <class name="testcases.Edit_Shortcode" ></class>  
+    </classes>
+</test>
+
+</suite>
+

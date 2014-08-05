@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Infocenter Suite]">
+  <test name="Create shortcodes(failed)">
+    <classes>
+      <class name="testcases.Create_Shortcodes">
+        <methods>
+          <include name="createshortcode" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testcases.Create_Shortcodes -->
+    </classes>
+  </test> <!-- Create shortcodes(failed) -->
+  <test name="Create MT Routes(failed)">
+    <classes>
+      <class name="testcases.Create_Mtroutes">
+        <methods>
+          <include name="mtroute" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testcases.Create_Mtroutes -->
+    </classes>
+  </test> <!-- Create MT Routes(failed) -->
+  <test name="Create MO Routes(failed)">
+    <classes>
+      <class name="testcases.Create_Moroutes">
+        <methods>
+          <include name="moroute" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testcases.Create_Moroutes -->
+    </classes>
+  </test> <!-- Create MO Routes(failed) -->
+  <test name="Create Routerlog(failed)">
+    <classes>
+      <class name="testcases.Create_Routerlog">
+        <methods>
+          <include name="moroute" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testcases.Create_Routerlog -->
+    </classes>
+  </test> <!-- Create Routerlog(failed) -->
+  <test name="Create verizonprograms(failed)">
+    <classes>
+      <class name="testcases.Create_verizon">
+        <methods>
+          <include name="moroute" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testcases.Create_verizon -->
+    </classes>
+  </test> <!-- Create verizonprograms(failed) -->
+  <test name="Edit Shortcode(failed)">
+    <classes>
+      <class name="testcases.Edit_Shortcode">
+        <methods>
+          <include name="moroute" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testcases.Edit_Shortcode -->
+    </classes>
+  </test> <!-- Edit Shortcode(failed) -->
+</suite> <!-- Failed suite [Infocenter Suite] -->
